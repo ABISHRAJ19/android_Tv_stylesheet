@@ -1,0 +1,47 @@
+.typography-block {
+    box-sizing: border-box;
+    background: #303030;
+    color : #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-1 {
+    width: 40%;
+    text-align: right;
+}
+.col-2 {width: 40%;}
+
+.sub-heading-1 {
+    font-size: 34px;
+}
+
+.sub-heading-2 .sub-heading-5{
+    font-size: 28px;
+}
+
+.sub-heading-3 {
+    font-size: 25px;
+}
+
+.sub-heading-4 {
+    font-size: 20px;
+}
+
+.sub-heading-6 .sub-heading-7{
+    font-size: 18px;
+}
+
+.sub-heading-8 {
+    font-size: 15px;
+}

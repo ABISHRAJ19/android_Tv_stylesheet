@@ -1,0 +1,47 @@
+.card-video-16x9 {
+    float: left;
+    margin: 10px 20px;
+    width: 256px;
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.card-video-16x9 .card-section-1 {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.card-video-16x9 .card-section-1 img {
+    float: left;
+    width: 100%;
+}
+
+.card-video-16x9 .tag-primary {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #00FF00;
+    padding: 3px 6px;
+}
+
+.card-video-16x9 .tag-secondary {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #00FF00;
+    padding: 3px 6px;
+}
+
+.card-video-16x9 .card-section-2 {
+    float: left;
+    width: 100%;
+}
+
+
+.card-video-16x9 .card-section-2 .title {
+    padding: 5px 10px;
+}
+
+
+
